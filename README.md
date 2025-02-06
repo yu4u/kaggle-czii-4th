@@ -1,5 +1,6 @@
 # CZII - CryoET Object Identification - 4th Place Solution
 This is the implementation of the 4th place solution (yu4u's part) for [CZII - CryoET Object Identification](https://www.kaggle.com/competitions/czii-cryo-et-object-identification) at Kaggle.
+The source code for tattaka's model can be found [here](https://github.com/tattaka/czii-cryo-et-object-identification-public).
 The overall solution is described in [this discussion](https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561401).
 
 ![yu4u pipeline](misc/model.png)
