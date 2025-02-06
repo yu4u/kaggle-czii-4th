@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  dev:
+    shm_size: "128gb"
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+      args:
+        UID: ${UID}
+    tty: true
+    volumes:
+      - .:/work
+    working_dir: /work
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [ gpu ]
