@@ -48,3 +48,14 @@ Trained models are saved in `saved_models/timm3d3_convnext_nano_class6_fold[2|3|
 Our checkpoint can be found [here](https://www.kaggle.com/datasets/ren4yu/czii-models8).
 Convert these checkpoints into TensorRT engines using [this notebook](https://www.kaggle.com/code/ren4yu/czii-tensorrt-convert-1/notebook).
 The outputs from this notebook can be used in [the submission notebook](https://www.kaggle.com/code/ren4yu/czii-ensemble-tensorrt-xy-stride-th?scriptVersionId=220758003).
+
+## Citation
+
+```bibtex
+@article{uchida2025unet,
+  title={2.5D U-Net with Depth Reduction for 3D CryoET Object Identification},
+  author={Uchida, Yusuke and Fukui, Takaaki},
+  journal={arXiv preprint arXiv:2502.13484},
+  year={2025}
+}
+```
