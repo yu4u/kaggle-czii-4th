@@ -3,6 +3,8 @@ This is the implementation of the 4th place solution (yu4u's part) for [CZII - C
 The source code for tattaka's model can be found [here](https://github.com/tattaka/czii-cryo-et-object-identification-public).
 The overall solution is described in [this discussion](https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561401).
 
+Our technical paper is also [available](https://arxiv.org/abs/2502.13484).
+
 ![yu4u pipeline](misc/model.png)
 
 ## Requirements
